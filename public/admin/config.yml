@@ -1,8 +1,7 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/ocmulgee-free-press
+  repo: crawl85/ocmulgee-free-press
   branch: main
-  base_url: https://YOUR-AUTH-WORKER.workers.dev
 
 local_backend: true
 media_folder: public/uploads
