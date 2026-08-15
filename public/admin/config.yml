@@ -1,0 +1,78 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/ocmulgee-free-press
+  branch: main
+  base_url: https://YOUR-AUTH-WORKER.workers.dev
+
+local_backend: true
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: newsroom
+    label: Newsroom
+    files:
+      - name: stories
+        label: Stories
+        file: content/articles.json
+        fields:
+          - label: Stories
+            name: articles
+            widget: list
+            summary: "{{fields.title}} — {{fields.section}}"
+            fields:
+              - { label: Slug, name: slug, widget: string, hint: "Lowercase words separated by hyphens" }
+              - { label: Section, name: section, widget: select, options: [Local, Accountability, FLOCK Watch, Citizen Resources] }
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Headline, name: title, widget: string }
+              - { label: Summary, name: dek, widget: text }
+              - { label: Date, name: date, widget: string }
+              - { label: Author, name: author, widget: string }
+              - { label: Read time, name: readTime, widget: string, default: "5 min read" }
+              - { label: Homepage feature, name: featured, widget: boolean, default: false }
+              - { label: Accent, name: accent, widget: select, options: [red, gold, blue, green, ink], default: red }
+              - label: Story body
+                name: body
+                widget: list
+                field: { label: Paragraph, name: paragraph, widget: text }
+      - name: records
+        label: Open Records Library
+        file: content/records.json
+        fields:
+          - label: Records
+            name: records
+            widget: list
+            summary: "{{fields.title}} — {{fields.agency}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Agency, name: agency, widget: string }
+              - { label: Category, name: category, widget: select, options: [ALPR / Surveillance, Contracts, Policies, Meeting Records, Correspondence, Spending, Other] }
+              - { label: Date, name: date, widget: string }
+              - { label: File format, name: format, widget: string }
+              - { label: File size, name: size, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Upload record, name: file, widget: file }
+      - name: resources
+        label: Citizen Resources
+        file: content/resources.json
+        fields:
+          - label: Resources
+            name: resources
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Type, name: type, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Button text, name: action, widget: string }
+      - name: settings
+        label: Site Settings
+        file: content/site.json
+        fields:
+          - { label: Publication name, name: name, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Newsroom email, name: email, widget: string }
+          - { label: Tips email, name: tipEmail, widget: string }
+          - { label: Location, name: location, widget: string }
+          - { label: Edition, name: edition, widget: string }

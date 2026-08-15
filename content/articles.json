@@ -1,0 +1,89 @@
+{
+  "articles": [
+    {
+      "slug": "who-is-searching-flock-network",
+      "section": "FLOCK Watch",
+      "eyebrow": "Surveillance & accountability",
+      "title": "Who is searching the Flock network—and why?",
+      "dek": "Thousands of automated license-plate reader searches raise a basic accountability question: are agencies documenting a legitimate law-enforcement purpose every time?",
+      "date": "August 15, 2026",
+      "author": "Ocmulgee Free Press Staff",
+      "readTime": "8 min read",
+      "featured": true,
+      "accent": "red",
+      "body": [
+        "Automated license-plate reader systems can tell law enforcement where a vehicle was seen, when it passed a camera, and which direction it was traveling. That power deserves meaningful oversight—not a rubber stamp.",
+        "The Ocmulgee Free Press is reviewing search logs, agency policies, contracts, and training records to determine how the technology is being used across Middle Georgia. Our reporting focuses on the paper trail: who searched, what reason was entered, which case number was cited, and whether the search complied with policy and law.",
+        "This is an ongoing reporting project. Source records will be added to our Open Records Library as they are obtained and reviewed. Readers with firsthand knowledge can contact the newsroom confidentially."
+      ]
+    },
+    {
+      "slug": "three-day-clock-open-records",
+      "section": "Citizen Resources",
+      "eyebrow": "Know your rights",
+      "title": "The three-day clock: what Georgia agencies owe requesters",
+      "dek": "A practical guide to response deadlines, cost estimates, and the difference between acknowledging a request and actually complying with the law.",
+      "date": "August 13, 2026",
+      "author": "Ocmulgee Free Press Staff",
+      "readTime": "6 min read",
+      "featured": false,
+      "accent": "gold",
+      "body": [
+        "Georgia's Open Records Act gives the public a strong right to inspect government records. The three-business-day response window is one of its most important safeguards, but it is frequently misunderstood.",
+        "When records cannot be produced within three business days, the agency should provide a written description of the records and a timetable for production. A vague automatic extension is not the same thing as a fact-specific estimate.",
+        "Keep every request, acknowledgement, invoice, and follow-up in one folder. A clean paper trail makes it much easier to spot shifting explanations and challenge unreasonable fees or delays."
+      ]
+    },
+    {
+      "slug": "commission-agenda-reader",
+      "section": "Local",
+      "eyebrow": "Macon-Bibb government",
+      "title": "What to watch at Tuesday's commission meeting",
+      "dek": "Contracts, camera infrastructure, and a familiar consent-agenda problem are on the docket. Here is the plain-language version.",
+      "date": "August 12, 2026",
+      "author": "Mara Ellis",
+      "readTime": "5 min read",
+      "featured": false,
+      "accent": "blue",
+      "body": [
+        "Public meeting agendas are often written for insiders. Our agenda reader translates the items that carry the biggest public consequences and points readers to the underlying documents.",
+        "This week's meeting includes proposed technology spending, amendments to vendor agreements, and several items grouped on the consent agenda. Any commissioner may ask to pull an item for separate discussion.",
+        "The meeting is open to the public. Readers should confirm the official time and location with Macon-Bibb County before attending."
+      ]
+    },
+    {
+      "slug": "redaction-is-not-explanation",
+      "section": "Accountability",
+      "eyebrow": "Public records",
+      "title": "A redaction is not an explanation",
+      "dek": "When an agency withholds public information, the law requires more than a black box and a vague citation.",
+      "date": "August 9, 2026",
+      "author": "Ocmulgee Free Press Staff",
+      "readTime": "4 min read",
+      "featured": false,
+      "accent": "ink",
+      "body": [
+        "Government agencies sometimes cite a broad statutory section without identifying the particular exemption they believe applies. That makes meaningful review difficult and shifts the burden onto the requester.",
+        "Ask the agency to identify the specific legal authority for each category of information withheld. Preserve the original file, the redacted copy, and the written explanation together.",
+        "Our Open Records Library publishes both the records and the correspondence needed to understand how they were produced."
+      ]
+    },
+    {
+      "slug": "school-board-records-guide",
+      "section": "Local",
+      "eyebrow": "Bibb County schools",
+      "title": "How to follow the money in a school-board packet",
+      "dek": "Purchase orders, change orders, and vendor lists can reveal far more than the meeting summary.",
+      "date": "August 6, 2026",
+      "author": "Jon Bell",
+      "readTime": "7 min read",
+      "featured": false,
+      "accent": "green",
+      "body": [
+        "School-board packets can run hundreds of pages, but a few recurring sections deserve special attention. Start with the consent agenda, monthly financial report, and any contract amendments.",
+        "Compare the current packet against earlier versions. Changes in price, scope, or vendor can be easy to miss when each item is reviewed in isolation.",
+        "The source documents used for this guide are available in the Open Records Library."
+      ]
+    }
+  ]
+}

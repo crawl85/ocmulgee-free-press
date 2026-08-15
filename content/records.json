@@ -1,0 +1,54 @@
+{
+  "records": [
+    {
+      "title": "BCSO Flock Audit Log — May 2026",
+      "agency": "Bibb County Sheriff's Office",
+      "category": "ALPR / Surveillance",
+      "date": "June 18, 2026",
+      "format": "CSV",
+      "size": "1.8 MB",
+      "description": "Search audit data produced in response to an Open Records Act request. Review reporting notes before drawing conclusions from individual entries.",
+      "file": "/uploads/sample-flock-audit.csv"
+    },
+    {
+      "title": "Flock Safety Services Agreement",
+      "agency": "Macon-Bibb County",
+      "category": "Contracts",
+      "date": "April 22, 2026",
+      "format": "PDF",
+      "size": "2.4 MB",
+      "description": "Executed agreement and related exhibits governing the county's automated license-plate reader network.",
+      "file": "/uploads/sample-record.txt"
+    },
+    {
+      "title": "Use and Data Retention Policy",
+      "agency": "Bibb County Sheriff's Office",
+      "category": "Policies",
+      "date": "March 4, 2026",
+      "format": "PDF",
+      "size": "684 KB",
+      "description": "Agency policy addressing authorized use, audit review, data retention, and information sharing.",
+      "file": "/uploads/sample-record.txt"
+    },
+    {
+      "title": "Commission Meeting Packet — August 2026",
+      "agency": "Macon-Bibb County",
+      "category": "Meeting Records",
+      "date": "August 10, 2026",
+      "format": "PDF",
+      "size": "14.2 MB",
+      "description": "Public meeting packet, agenda materials, proposed contracts, and supporting exhibits.",
+      "file": "/uploads/sample-record.txt"
+    },
+    {
+      "title": "Camera Location Inventory",
+      "agency": "Warner Robins Police Department",
+      "category": "ALPR / Surveillance",
+      "date": "July 29, 2026",
+      "format": "XLSX",
+      "size": "92 KB",
+      "description": "Responsive inventory identifying fixed camera locations and deployment dates.",
+      "file": "/uploads/sample-record.txt"
+    }
+  ]
+}

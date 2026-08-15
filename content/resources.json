@@ -1,0 +1,28 @@
+{
+  "resources": [
+    {
+      "title": "Georgia Open Records Request Template",
+      "type": "Template",
+      "description": "A plain-language starting point for requesting records from a Georgia public agency.",
+      "action": "Copy template"
+    },
+    {
+      "title": "Open Meetings Field Guide",
+      "type": "Quick guide",
+      "description": "What to document when a public meeting appears to violate Georgia law.",
+      "action": "Read the guide"
+    },
+    {
+      "title": "Fee Estimate Worksheet",
+      "type": "Worksheet",
+      "description": "Break down search, review, redaction, and duplication charges before you agree to pay.",
+      "action": "Open worksheet"
+    },
+    {
+      "title": "Filing a Complaint",
+      "type": "Directory",
+      "description": "Where to escalate a public-records or open-meetings dispute in Georgia.",
+      "action": "View contacts"
+    }
+  ]
+}

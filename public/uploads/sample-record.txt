@@ -1,0 +1,5 @@
+The Ocmulgee Free Press — Sample Record Placeholder
+
+Replace this file through the Content Studio with the responsive public record.
+Every published record should include a useful title, originating agency, date,
+format, brief description, and any reporting context readers need.
