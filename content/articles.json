@@ -1,88 +1,23 @@
 {
   "articles": [
     {
-      "slug": "who-is-searching-flock-network",
+      "slug": "audit-of-flock-searches-raises-concerns",
       "section": "FLOCK Watch",
-      "eyebrow": "Surveillance & accountability",
-      "title": "Who is searching the Flock network—and why?",
-      "dek": "Thousands of automated license-plate reader searches raise a basic accountability question: are agencies documenting a legitimate law-enforcement purpose every time?",
-      "date": "August 15, 2026",
+      "eyebrow": "FLOCK WATCH | SURVEILLANCE & ACCOUNTABILITY",
+      "title": "Nearly Half of Bibb County Sheriff’s Flock Searches Had Recordkeeping Problems, Audit Finds",
+      "dek": "An independent forensic review of 3,663 Flock Safety searches found hundreds with no identifiable case number, widespread recordkeeping failures and high-volume bursts of plate lookups that auditors say warrant additional scrutiny.",
+      "date": "August 15th, 2026",
       "author": "Ocmulgee Free Press Staff",
-      "readTime": "8 min read",
+      "readTime": "5 min read",
       "featured": true,
       "accent": "red",
       "body": [
-        "Automated license-plate reader systems can tell law enforcement where a vehicle was seen, when it passed a camera, and which direction it was traveling. That power deserves meaningful oversight—not a rubber stamp.",
-        "The Ocmulgee Free Press is reviewing search logs, agency policies, contracts, and training records to determine how the technology is being used across Middle Georgia. Our reporting focuses on the paper trail: who searched, what reason was entered, which case number was cited, and whether the search complied with policy and law.",
-        "This is an ongoing reporting project. Source records will be added to our Open Records Library as they are obtained and reviewed. Readers with firsthand knowledge can contact the newsroom confidentially."
-      ]
-    },
-    {
-      "slug": "three-day-clock-open-records",
-      "section": "Citizen Resources",
-      "eyebrow": "Know your rights",
-      "title": "The three-day clock: what Georgia agencies owe requesters",
-      "dek": "A practical guide to response deadlines, cost estimates, and the difference between acknowledging a request and actually complying with the law.",
-      "date": "August 13, 2026",
-      "author": "Ocmulgee Free Press Staff",
-      "readTime": "6 min read",
-      "featured": false,
-      "accent": "gold",
-      "body": [
-        "Georgia's Open Records Act gives the public a strong right to inspect government records. The three-business-day response window is one of its most important safeguards, but it is frequently misunderstood.",
-        "When records cannot be produced within three business days, the agency should provide a written description of the records and a timetable for production. A vague automatic extension is not the same thing as a fact-specific estimate.",
-        "Keep every request, acknowledgement, invoice, and follow-up in one folder. A clean paper trail makes it much easier to spot shifting explanations and challenge unreasonable fees or delays."
-      ]
-    },
-    {
-      "slug": "commission-agenda-reader",
-      "section": "Local",
-      "eyebrow": "Macon-Bibb government",
-      "title": "What to watch at Tuesday's commission meeting",
-      "dek": "Contracts, camera infrastructure, and a familiar consent-agenda problem are on the docket. Here is the plain-language version.",
-      "date": "August 12, 2026",
-      "author": "Mara Ellis",
-      "readTime": "5 min read",
-      "featured": false,
-      "accent": "blue",
-      "body": [
-        "Public meeting agendas are often written for insiders. Our agenda reader translates the items that carry the biggest public consequences and points readers to the underlying documents.",
-        "This week's meeting includes proposed technology spending, amendments to vendor agreements, and several items grouped on the consent agenda. Any commissioner may ask to pull an item for separate discussion.",
-        "The meeting is open to the public. Readers should confirm the official time and location with Macon-Bibb County before attending."
-      ]
-    },
-    {
-      "slug": "redaction-is-not-explanation",
-      "section": "Accountability",
-      "eyebrow": "Public records",
-      "title": "A redaction is not an explanation",
-      "dek": "When an agency withholds public information, the law requires more than a black box and a vague citation.",
-      "date": "August 9, 2026",
-      "author": "Ocmulgee Free Press Staff",
-      "readTime": "4 min read",
-      "featured": false,
-      "accent": "ink",
-      "body": [
-        "Government agencies sometimes cite a broad statutory section without identifying the particular exemption they believe applies. That makes meaningful review difficult and shifts the burden onto the requester.",
-        "Ask the agency to identify the specific legal authority for each category of information withheld. Preserve the original file, the redacted copy, and the written explanation together.",
-        "Our Open Records Library publishes both the records and the correspondence needed to understand how they were produced."
-      ]
-    },
-    {
-      "slug": "school-board-records-guide",
-      "section": "Local",
-      "eyebrow": "Bibb County schools",
-      "title": "How to follow the money in a school-board packet",
-      "dek": "Purchase orders, change orders, and vendor lists can reveal far more than the meeting summary.",
-      "date": "August 6, 2026",
-      "author": "Jon Bell",
-      "readTime": "7 min read",
-      "featured": false,
-      "accent": "green",
-      "body": [
-        "School-board packets can run hundreds of pages, but a few recurring sections deserve special attention. Start with the consent agenda, monthly financial report, and any contract amendments.",
-        "Compare the current packet against earlier versions. Changes in price, scope, or vendor can be easy to miss when each item is reviewed in isolation.",
-        "The source documents used for this guide are available in the Open Records Library."
+        "A forensic audit of the Bibb County Sheriff’s Office’s use of Flock Safety automated license plate reader technology has raised significant questions about how deputies and other personnel document their searches — and whether the agency can reliably demonstrate the investigative purpose behind every use of the surveillance system.\n\nThe audit examined 3,663 Flock Safety search-log entries generated by 63 user accounts between May 1 and June 1, 2026. Its central finding is striking: only 2,063 searches, or 56.3 percent, contained a properly formatted case or incident number in the designated “Case #” field. The other 1,600 searches — 43.7 percent of the total — either placed identifying information in the wrong field or contained no identifiable case reference at all.\n\nThe report does not conclude that those searches were unauthorized or that any individual employee intentionally misused Flock. In fact, the auditors explicitly caution against drawing that conclusion. What the findings expose instead is a significant accountability problem: when a powerful surveillance tool is used without consistent records tying searches to specific investigations, determining after the fact whether those searches were legitimate becomes considerably more difficult.",
+        "204 searches with no identifiable case\n\nThe most serious category identified by the audit consists of 204 searches — 5.6 percent of the entire dataset — for which investigators could identify no case or incident number anywhere in the record.\n\nIn those instances, the dedicated case-number field was blank and the reason field contained either no identifying number or only general descriptions such as “suspect,” “stolen,” “shooting” or “investigation.”\n\nThat distinction matters.\n\nA search connected to a documented investigation can potentially be reviewed against an incident report, warrant, dispatch record or other agency documentation. A search recorded simply as “suspect” or “investigation” provides far less information to determine why a person or vehicle was queried.\n\nThe audit recommends that all 204 searches be individually reconciled against the agency’s records-management system to establish whether each was connected to a legitimate investigative purpose.",
+        "More than 1,300 searches documented incorrectly\n\nMost of the questionable records do not appear to represent searches completely lacking a case reference. Instead, they reveal what the audit describes as a widespread recordkeeping problem.\n\nOf the 3,663 searches examined, 1,396 — 38.1 percent — contained evidence that a case identifier had been entered incorrectly.\n\nIn 1,022 records, users apparently placed a case number in the free-text “Reason” field while leaving the designated case-number field blank. Another 347 records contained a Flock-generated “FID” identifier in place of an agency case number.\n\nBecause the same problem appears across numerous user accounts, the report suggests the pattern is more consistent with a systemic workflow or training problem than an isolated employee habit.\n\nThat explanation may be less alarming than intentional misuse, but it does not eliminate the accountability problem.\n\nALPR audit logs are supposed to make surveillance activity reviewable after it occurs. If investigators must manually reconstruct which case justified thousands of searches because identifying information was entered inconsistently, the usefulness of that audit trail is substantially weakened.",
+        "High-volume bursts deserve a closer look\n\nThe audit also identified 71 “burst sessions” in which the same user performed at least five plate lookups with no more than two minutes between consecutive searches.\n\nSome were dramatically larger.\n\nOne user performed 128 lookups in approximately 14 minutes on May 30. Another performed 101 searches during a roughly 25-minute session. Other sessions included 59, 46 and 41 lookups.\n\nSuch activity is not inherently suspicious.\n\nInvestigators could legitimately run dozens of plates while working an organized theft investigation, searching for a wanted person or analyzing vehicles associated with a larger case. The report explicitly recognizes that possibility.\n\nBut several high-volume sessions lacked an agency case number entirely or relied on a Flock FID rather than an agency case identifier. That combination — unusually concentrated searching coupled with incomplete documentation — is why the auditors recommend supervisory review.\n\nAmong the sessions identified was a 41-lookup sequence lasting about 26 minutes with no case number entered. Another 33-lookups-in-12-minutes session also contained no case number. Additional sessions of 31, 26 and 25 searches likewise lacked an entered case number.\n\nWithout additional records, however, the audit cannot determine whether those searches represented legitimate investigative work or something else.\n\nAnd that uncertainty leads to one of the report’s most important limitations.",
+        "Redactions prevent the most important verification\n\nThe data provided for analysis did not include the actual license plates searched.\n\nAccording to the report, both the License and Filters fields were completely redacted from every row of the agency's export.\n\nThat means the auditors could determine when searches occurred, who conducted them and how closely together they were performed — but they could not determine whether a 40-search burst involved 40 different vehicles, repeated searches of one vehicle or some combination of the two.\n\nThe report therefore warns that its “repeated plate search” analysis is only a proxy based on temporal clustering rather than a direct comparison of license plates.\n\nThat limitation is particularly important when evaluating possible misuse. The existing records can identify activity that deserves further examination, but the redacted dataset cannot answer the ultimate question of what vehicles were actually being searched and why.\n\nThe audit recommends repeating the analysis using unredacted plate-level information if it can be made available through appropriate authorization.",
+        "A small group conducted most searches\n\nFlock usage was also heavily concentrated among a relatively small number of accounts.\n\nThe median user performed just 13 searches during the audit period. The highest-volume account performed 553 searches — more than 42 times the median.\n\nThe top three accounts together generated 35.3 percent of all searches, while the top 10 accounted for roughly 70 percent of the agency’s entire search volume.\n\nAgain, volume alone is not evidence of misconduct. An investigator assigned specifically to vehicle-related cases or an intelligence analyst could reasonably use the system far more frequently than a patrol deputy.\n\nThe audit itself stresses that point, saying high-volume users should be viewed as a starting population for supervisory sampling rather than evidence of wrongdoing.\n\nThe concern becomes more significant when high search volume overlaps with missing case numbers, unusual search bursts or other documentation problems."
       ]
     }
   ]
