@@ -86,4 +86,4 @@ export default function FlockWatchPage() {
           style={{
             width: "100%",
             height: "clamp(430px, 70vh, 720px)",
-            overflow: "hidden
+            overflow: "hidden"
