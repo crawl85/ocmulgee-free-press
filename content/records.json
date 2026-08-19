@@ -9,6 +9,16 @@
       "size": "1.8 MB",
       "description": "Search audit data produced in response to an Open Records Act request. Review reporting notes before drawing conclusions from individual entries.",
       "file": "/uploads/Original BCSO GA Flock Audit .csv"
+    },
+    {
+      "title": "Forensic Audit of search log",
+      "agency": "Bibb County Sheriff's Office",
+      "category": "ALPR / Surveillance",
+      "date": "July 22, 2026",
+      "format": "DOCX",
+      "size": "556 KB",
+      "description": "Independent forensic audit of 3,663 Flock Safety ALPR searches performed by 63 Bibb County Sheriff’s Office user accounts between May 1 and June 1, 2026. The report examines case-number documentation, searches lacking identifiable case references, concentrated user activity, off-hours usage and repeated high-volume lookup sessions.",
+      "file": "/uploads/BCSO_Flock_Audit_Forensic_Report.docx"
     }
   ]
 }
