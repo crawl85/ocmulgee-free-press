@@ -3,10 +3,10 @@
     {
       "title": "Georgia Open Records Request Template",
       "type": "Template",
-      "description": "A plain-language starting point for requesting records from a Georgia public agency.",
-      "action": "Download template",
-      "href": "/downloads/georgia-open-records-request-template.txt",
-      "download": true,
+      "description": "Fill out, save, print, or email a Georgia Open Records Act request using an interactive PDF.",
+      "action": "Open fillable PDF",
+      "href": "/downloads/georgia-open-records-request-template.pdf",
+      "download": false,
       "external": false
     },
     {
