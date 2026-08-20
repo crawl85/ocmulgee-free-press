@@ -7,6 +7,7 @@ import { useState } from "react";
 
 const nav = [
   ["Local", "/local"],
+  ["Accountability", "/accountability"],
   ["Open Records", "/records"],
   ["FLOCK Watch", "/flock-watch"],
   ["Citizen Resources", "/citizen-resources"],
