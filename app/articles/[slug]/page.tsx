@@ -1,8 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import { Fragment } from "react";
 import { notFound } from "next/navigation";
-import { articles, getArticle, type ArticleImage } from "@/lib/content";
+import { articles, getArticle, site, type ArticleImage } from "@/lib/content";
+import { absoluteUrl, articleDateIso } from "@/lib/seo";
+
+type ArticlePageProps = {
+  params: Promise<{ slug: string }>;
+};
 
 function renderInlineLinks(text: string) {
   return text
@@ -52,11 +58,60 @@ export function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({
+  params,
+}: ArticlePageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const article = getArticle(slug);
+
+  if (!article) {
+    return {};
+  }
+
+  const articleUrl = absoluteUrl(`/articles/${article.slug}/`);
+  const featuredImage = article.featuredImage
+    ? absoluteUrl(article.featuredImage)
+    : undefined;
+  const publishedTime = articleDateIso(article.date);
+
+  return {
+    title: article.title,
+    description: article.dek,
+    authors: [{ name: article.author }],
+    alternates: {
+      canonical: articleUrl,
+    },
+    openGraph: {
+      type: "article",
+      url: articleUrl,
+      title: article.title,
+      description: article.dek,
+      siteName: site.name,
+      publishedTime,
+      modifiedTime: publishedTime,
+      authors: [article.author],
+      section: article.section,
+      images: featuredImage
+        ? [
+            {
+              url: featuredImage,
+              alt: article.featuredImageAlt || article.title,
+            },
+          ]
+        : undefined,
+    },
+    twitter: {
+      card: featuredImage ? "summary_large_image" : "summary",
+      title: article.title,
+      description: article.dek,
+      images: featuredImage ? [featuredImage] : undefined,
+    },
+  };
+}
+
 export default async function ArticlePage({
   params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+}: ArticlePageProps) {
   const { slug } = await params;
   const article = getArticle(slug);
 
@@ -71,8 +126,52 @@ export default async function ArticlePage({
         ? "/local"
         : "/citizen-resources";
 
+  const articleUrl = absoluteUrl(`/articles/${article.slug}/`);
+  const publishedTime = articleDateIso(article.date);
+  const featuredImage = article.featuredImage
+    ? absoluteUrl(article.featuredImage)
+    : undefined;
+  const newsArticle = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": articleUrl,
+    },
+    headline: article.title,
+    description: article.dek,
+    image: featuredImage ? [featuredImage] : undefined,
+    datePublished: publishedTime,
+    dateModified: publishedTime,
+    articleSection: article.section,
+    isAccessibleForFree: true,
+    author: {
+      "@type": article.author.includes("Free Press")
+        ? "Organization"
+        : "Person",
+      name: article.author,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: site.name,
+      url: absoluteUrl("/"),
+      logo: {
+        "@type": "ImageObject",
+        url: absoluteUrl("/images/ocmulgee-free-press-logo.png"),
+        width: 1200,
+        height: 400,
+      },
+    },
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(newsArticle).replace(/</g, "\\u003c"),
+        }}
+      />
       <article className="article-page">
         <header className="article-header shell">
           <Link href={sectionLink} className="kicker">
