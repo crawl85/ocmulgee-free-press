@@ -1,69 +1,48 @@
 {
   "articles": [
     {
-  "slug": "end-qualified-immunity",
-  "section": "Accountability",
-  "eyebrow": "Civil rights & accountability",
-  "title": "It's Time to End Qualified Immunity",
-  "dek": "A court-created doctrine often prevents people from holding government officials accountable for constitutional violations. Here’s how qualified immunity works, why it remains controversial and where reform efforts stand.",
-  "date": "August 20, 2026",
-  "author": "The Ocmulgee Free Press",
-  "readTime": "6 min read",
-  "featured": true,
-  "accent": "gold",
-  "body": [
-    "When a government official violates your constitutional rights, you should be able to hold them accountable in court. In practice, a legal doctrine called qualified immunity often makes that nearly impossible. It's time for Congress and the states to end it.",
-
-    "## What Qualified Immunity Is",
-
-    "Qualified immunity is a court-created defense that shields government officials — most often police officers — from being personally sued for violating someone's constitutional rights. It emerged from a series of Supreme Court decisions and was substantially expanded in the 1982 case Harlow v. Fitzgerald.",
-
-    "Under the doctrine, a victim can only win a civil rights lawsuit against an official if the official violated a “clearly established” right — meaning a prior court case, with nearly identical facts, already ruled that specific conduct unconstitutional. If no case exactly on point exists, the official walks away immune, even if what they did was plainly wrong.",
-
-    "That standard has proven almost impossible to meet. Courts have granted immunity in cases involving officers who stole property while executing a search warrant, released a police dog on a suspect who had already surrendered, and shot a child while aiming at a nonthreatening family dog — all because no earlier case matched the facts closely enough.",
-
-    "## Why It Matters Right Now",
-
-    "Qualified immunity isn't an abstract legal debate — it continues to shape real cases in 2026. In March, the Supreme Court granted qualified immunity to a Vermont police officer sued by a nonviolent protester injured during a sit-in at the state capitol, over a dissent from three justices. That same term, the Court also declined to disturb a Seventh Circuit ruling shielding correctional officers who pepper-sprayed an inmate with a known medical contraindication and left him naked in a cold cell for 23 hours — again over a sharp dissent from Justice Sotomayor, who called the immunity grant “clearly wrong.”",
-
-    "These aren't outliers. They reflect how the “clearly established law” test operates: it asks not whether conduct was wrong, but whether some earlier court happened to say so under nearly identical circumstances. Justice Clarence Thomas — no liberal on this issue — has himself expressed “strong doubts” about the doctrine's legitimacy, noting that it lacks grounding in the text of the statute it purports to interpret, 42 U.S.C. § 1983.",
-
-    "## The Case for Ending It",
-
-    "It denies victims their day in court. Section 1983, the Reconstruction-era law meant to let people sue officials who violate their rights, contains no mention of qualified immunity. The Supreme Court invented the defense decades after the statute was passed, and it now regularly forecloses meritorious claims before a jury ever hears them.",
-
-    "It undermines accountability. When officials know they're personally shielded from liability except in the narrowest circumstances, the deterrent effect of civil rights law weakens. Departments and individual officers face less pressure to correct misconduct.",
-
-    "It's inconsistently and arbitrarily applied. Because the doctrine hinges on finding a nearly identical prior case, outcomes often turn on happenstance — whether some other plaintiff, in some other circuit, previously sued over comparable conduct — rather than on the merits of what happened to the person in front of the court.",
-
-    "It has drawn opposition across the political spectrum. Reform efforts have brought together civil rights organizations like the ACLU and NAACP with libertarian and conservative groups like the Cato Institute and the Institute for Justice, who see the doctrine as inconsistent with limited-government and rule-of-law principles.",
-
-    "## Where Reform Stands Today",
-
-    "Momentum has been building, though federal action remains stalled:",
-
-    "- Congress: Several bills are pending in the current session, including the Qualified Immunity Abolition Act of 2026 (S. 3625 / H.R. 7046), introduced by Senator Ed Markey, which would eliminate the qualified immunity defense entirely for claims under Section 1983. A revived version of the George Floyd Justice in Policing Act would end the doctrine for law enforcement specifically. Neither has passed as of this writing. Competing legislation, including bills such as S. 122 and H.R. 503, would instead codify and strengthen qualified immunity — underscoring that this remains a live and contested legislative fight.",
-
-    "- The Supreme Court: The Court has repeatedly declined invitations to revisit or narrow the doctrine, including a batch of cert denials in past terms and its ruling this spring in Zorn v. Linton. Reform through the courts alone looks unlikely in the near term.",
-
-    "- The states: Several states have acted on their own. Colorado eliminated qualified immunity as a defense to state constitutional claims in 2020. New Mexico passed the New Mexico Civil Rights Act in 2021, creating a state-law cause of action free of the defense. New York has pending legislation (S. 176 / A. 1402) that would do the same. Because these are state-law fixes, they don't affect federal claims, but they show reform is achievable at the state level even while Congress is deadlocked.",
-
-    "## What You Can Do",
-
-    "Change here has come from sustained public pressure as much as from litigation, so if this issue matters to you, here's where to start:",
-
-    "- Contact your members of Congress and ask them to support ending qualified immunity — whether through the Qualified Immunity Abolition Act, the George Floyd Justice in Policing Act, or similar legislation. Find your representatives at [congress.gov/members](https://www.congress.gov/members) and track bill status at [congress.gov](https://www.congress.gov).",
-
-    "- Push for state-level reform. If your state hasn't acted, state legislators can create a state-law cause of action that bypasses federal qualified immunity, as Colorado and New Mexico have done. Check your state legislature's website for pending bills.",
-
-    "- Support organizations working on this issue, including [ACLU](https://www.aclu.org), [Institute for Justice](https://ij.org), [NAACP Legal Defense Fund](https://www.naacpldf.org) and [Cato Institute](https://www.cato.org).",
-
-    "- Follow and share credible reporting on pending cases and legislation, including coverage from [SCOTUSblog](https://www.scotusblog.com) and the [Brennan Center for Justice](https://www.brennancenter.org).",
-
-    "- Vote and engage locally. Many police-accountability decisions — including union contracts, use-of-force policies and oversight boards — are made at the city and county level, where public pressure can be especially effective."
-
-  ]
-},
+      "slug": "end-qualified-immunity",
+      "section": "Accountability",
+      "eyebrow": "Civil rights & accountability",
+      "title": "It's Time to End Qualified Immunity",
+      "dek": "A court-created doctrine often prevents people from holding government officials accountable for constitutional violations. Here’s how qualified immunity works, why it remains controversial and where reform efforts stand.",
+      "date": "August 20, 2026",
+      "author": "The Ocmulgee Free Press",
+      "readTime": "6 min read",
+      "featured": true,
+      "accent": "gold",
+      "featuredImage": "/uploads/pexels-kindel-media-7714728.jpg",
+      "featuredImageAlt": "Two uniformed police officers stand outdoors. One officer, wearing sunglasses, holds a wooden baton across his body, while the other stands beside him with a hand resting near his duty belt.",
+      "featuredImageCaption": "Photo by Kindel Media on Pexels",
+      "body": [
+        "When a government official violates your constitutional rights, you should be able to hold them accountable in court. In practice, a legal doctrine called qualified immunity often makes that nearly impossible. It's time for Congress and the states to end it.",
+        "## What Qualified Immunity Is",
+        "Qualified immunity is a court-created defense that shields government officials — most often police officers — from being personally sued for violating someone's constitutional rights. It emerged from a series of Supreme Court decisions and was substantially expanded in the 1982 case Harlow v. Fitzgerald.",
+        "Under the doctrine, a victim can only win a civil rights lawsuit against an official if the official violated a “clearly established” right — meaning a prior court case, with nearly identical facts, already ruled that specific conduct unconstitutional. If no case exactly on point exists, the official walks away immune, even if what they did was plainly wrong.",
+        "That standard has proven almost impossible to meet. Courts have granted immunity in cases involving officers who stole property while executing a search warrant, released a police dog on a suspect who had already surrendered, and shot a child while aiming at a nonthreatening family dog — all because no earlier case matched the facts closely enough.",
+        "## Why It Matters Right Now",
+        "Qualified immunity isn't an abstract legal debate — it continues to shape real cases in 2026. In March, the Supreme Court granted qualified immunity to a Vermont police officer sued by a nonviolent protester injured during a sit-in at the state capitol, over a dissent from three justices. That same term, the Court also declined to disturb a Seventh Circuit ruling shielding correctional officers who pepper-sprayed an inmate with a known medical contraindication and left him naked in a cold cell for 23 hours — again over a sharp dissent from Justice Sotomayor, who called the immunity grant “clearly wrong.”",
+        "These aren't outliers. They reflect how the “clearly established law” test operates: it asks not whether conduct was wrong, but whether some earlier court happened to say so under nearly identical circumstances. Justice Clarence Thomas — no liberal on this issue — has himself expressed “strong doubts” about the doctrine's legitimacy, noting that it lacks grounding in the text of the statute it purports to interpret, 42 U.S.C. § 1983.",
+        "## The Case for Ending It",
+        "It denies victims their day in court. Section 1983, the Reconstruction-era law meant to let people sue officials who violate their rights, contains no mention of qualified immunity. The Supreme Court invented the defense decades after the statute was passed, and it now regularly forecloses meritorious claims before a jury ever hears them.",
+        "It undermines accountability. When officials know they're personally shielded from liability except in the narrowest circumstances, the deterrent effect of civil rights law weakens. Departments and individual officers face less pressure to correct misconduct.",
+        "It's inconsistently and arbitrarily applied. Because the doctrine hinges on finding a nearly identical prior case, outcomes often turn on happenstance — whether some other plaintiff, in some other circuit, previously sued over comparable conduct — rather than on the merits of what happened to the person in front of the court.",
+        "It has drawn opposition across the political spectrum. Reform efforts have brought together civil rights organizations like the ACLU and NAACP with libertarian and conservative groups like the Cato Institute and the Institute for Justice, who see the doctrine as inconsistent with limited-government and rule-of-law principles.",
+        "## Where Reform Stands Today",
+        "Momentum has been building, though federal action remains stalled:",
+        "- Congress: Several bills are pending in the current session, including the Qualified Immunity Abolition Act of 2026 (S. 3625 / H.R. 7046), introduced by Senator Ed Markey, which would eliminate the qualified immunity defense entirely for claims under Section 1983. A revived version of the George Floyd Justice in Policing Act would end the doctrine for law enforcement specifically. Neither has passed as of this writing. Competing legislation, including bills such as S. 122 and H.R. 503, would instead codify and strengthen qualified immunity — underscoring that this remains a live and contested legislative fight.",
+        "- The Supreme Court: The Court has repeatedly declined invitations to revisit or narrow the doctrine, including a batch of cert denials in past terms and its ruling this spring in Zorn v. Linton. Reform through the courts alone looks unlikely in the near term.",
+        "- The states: Several states have acted on their own. Colorado eliminated qualified immunity as a defense to state constitutional claims in 2020. New Mexico passed the New Mexico Civil Rights Act in 2021, creating a state-law cause of action free of the defense. New York has pending legislation (S. 176 / A. 1402) that would do the same. Because these are state-law fixes, they don't affect federal claims, but they show reform is achievable at the state level even while Congress is deadlocked.",
+        "## What You Can Do",
+        "Change here has come from sustained public pressure as much as from litigation, so if this issue matters to you, here's where to start:",
+        "- Contact your members of Congress and ask them to support ending qualified immunity — whether through the Qualified Immunity Abolition Act, the George Floyd Justice in Policing Act, or similar legislation. Find your representatives at [congress.gov/members](https://www.congress.gov/members) and track bill status at [congress.gov](https://www.congress.gov).",
+        "- Push for state-level reform. If your state hasn't acted, state legislators can create a state-law cause of action that bypasses federal qualified immunity, as Colorado and New Mexico have done. Check your state legislature's website for pending bills.",
+        "- Support organizations working on this issue, including [ACLU](https://www.aclu.org), [Institute for Justice](https://ij.org), [NAACP Legal Defense Fund](https://www.naacpldf.org) and [Cato Institute](https://www.cato.org).",
+        "- Follow and share credible reporting on pending cases and legislation, including coverage from [SCOTUSblog](https://www.scotusblog.com) and the [Brennan Center for Justice](https://www.brennancenter.org).",
+        "- Vote and engage locally. Many police-accountability decisions — including union contracts, use-of-force policies and oversight boards — are made at the city and county level, where public pressure can be especially effective."
+      ],
+      "images": []
+    },
     {
       "slug": "flock-transparency-portal-is-a-joke",
       "section": "FLOCK Watch",
