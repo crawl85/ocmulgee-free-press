@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ArticleCard from "@/components/ArticleCard";
 import PageIntro from "@/components/PageIntro";
+import PetitionCallout from "@/components/PetitionCallout";
 import { articles } from "@/lib/content";
 
 const mapUrl =
@@ -39,6 +40,8 @@ export default function FlockWatchPage() {
           <p>Contracts, renewals, hardware, and hidden add-ons.</p>
         </div>
       </section>
+
+      <PetitionCallout />
 
       <section className="shell flock-stories">
         <div className="section-heading">

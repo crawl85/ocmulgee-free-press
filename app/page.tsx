@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ArticleCard from "@/components/ArticleCard";
+import PetitionCallout from "@/components/PetitionCallout";
 import { articles, records } from "@/lib/content";
 
 export default function Home() {
@@ -31,6 +32,8 @@ export default function Home() {
           <Link href="/records">Search {records.length} featured records <span>→</span></Link>
         </div>
       </section>
+
+      <PetitionCallout />
 
       <section className="shell latest-section">
         <div className="section-heading"><div><p>Latest reporting</p><h2>News that belongs to you</h2></div><Link href="/local">View all local stories →</Link></div>

@@ -71,6 +71,23 @@ button, input, select, textarea { font: inherit; }
 .accountability-grid p { margin: 0; font: italic 17px/1.4 var(--serif); }
 .accountability-grid a { justify-self: end; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; border-bottom: 1px solid rgba(255,255,255,.7); padding-bottom: 4px; }
 
+.petition-callout { position: relative; overflow: hidden; background: #20231f; color: white; border-top: 7px solid var(--red); }
+.petition-callout:before { content: ""; position: absolute; width: 380px; height: 380px; right: -110px; top: -220px; border: 58px solid rgba(214,69,47,.32); border-radius: 50%; }
+.petition-callout-grid { min-height: 330px; display: grid; grid-template-columns: .72fr 1.45fr; gap: 70px; align-items: center; padding-block: 48px; position: relative; }
+.petition-callout-mark { min-height: 220px; display: flex; flex-direction: column; justify-content: center; border: 2px solid rgba(255,255,255,.78); padding: 28px; transform: rotate(-2deg); box-shadow: 10px 10px 0 var(--red); }
+.petition-callout-mark span { margin-bottom: 19px; color: #ffb7a9; font-size: 10px; font-weight: 900; letter-spacing: .16em; text-transform: uppercase; }
+.petition-callout-mark strong, .petition-callout-mark b { display: block; font: 900 clamp(42px, 5vw, 68px)/.78 var(--sans); letter-spacing: -.07em; }
+.petition-callout-mark b { color: #f16b51; }
+.petition-callout-copy { position: relative; z-index: 1; }
+.petition-callout-copy .section-label { color: #ff8a73; margin-bottom: 12px; }
+.petition-callout-copy h2 { max-width: 760px; margin: 0; font: 800 clamp(34px, 4vw, 52px)/1.02 var(--serif); letter-spacing: -.04em; }
+.petition-callout-copy > p:not(.section-label) { max-width: 740px; margin: 20px 0 25px; color: #cbc5ba; font: 17px/1.55 var(--serif); }
+.petition-callout-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; }
+.petition-button { border-color: var(--red); background: var(--red); color: white; }
+.petition-button:hover { border-color: white; background: white; color: var(--ink); }
+.petition-button:focus-visible { outline: 3px solid white; outline-offset: 4px; }
+.petition-vanity-url { color: #bdb7ad; font-size: 11px; font-weight: 800; letter-spacing: .04em; }
+
 .latest-section, .listing-section, .records-section { padding-block: 76px 90px; }
 .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; border-bottom: 2px solid var(--ink); padding-bottom: 17px; margin-bottom: 27px; }
 .section-heading p { margin: 0 0 5px; color: var(--red-dark); font-size: 11px; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; }
@@ -151,6 +168,7 @@ button, input, select, textarea { font: inherit; }
   .lead-grid, .records-promo-grid, .contact-grid { grid-template-columns: 1fr; }
   .lead-story h1 { font-size: 52px; }.lead-visual { min-height: 400px; }
   .accountability-grid { grid-template-columns: 1fr; padding-block: 19px; gap: 12px; }.accountability-grid a { justify-self: start; }
+  .petition-callout-grid { grid-template-columns: .72fr 1.28fr; gap: 40px; }
   .latest-grid { grid-template-columns: 1fr 1fr; }.latest-grid .story-card:last-child { grid-column: 1 / -1; }
   .records-promo-grid { padding-block: 60px; }.records-stack { max-width: 520px; width: 100%; margin-inline: auto; }
   .empowerment-section { grid-template-columns: .25fr 1fr; padding-block: 55px; }.empowerment-section > div:last-child { grid-column: 2; }
@@ -162,6 +180,7 @@ button, input, select, textarea { font: inherit; }
 @media (max-width: 620px) {
   .utility-inner { justify-content: space-between; }.utility-inner a { font-size: 9px; }
   .brand { width: min(265px, calc(100vw - 95px)); }
+  .petition-callout-grid { grid-template-columns: 1fr; gap: 34px; padding-block: 42px 50px; }.petition-callout-mark { min-height: 170px; max-width: 360px; width: calc(100% - 12px); }.petition-callout-copy h2 { font-size: 35px; }.petition-callout-copy > p:not(.section-label) { font-size: 16px; }.petition-button { width: 100%; }
   .home-lead { padding-block: 37px; }.lead-grid { gap: 32px; }.lead-story h1 { font-size: 43px; }.lead-dek { font-size: 18px; }.lead-visual { min-height: 340px; }.lead-stamp strong { font-size: 55px; }.camera-signal { transform: scale(.78) rotate(8deg); right: 7%; bottom: 7%; }
   .latest-section, .listing-section, .records-section { padding-block: 55px; }.section-heading { align-items: start; flex-direction: column; }.section-heading h2 { font-size: 31px; }.latest-grid, .listing-grid { grid-template-columns: 1fr; }.latest-grid .story-card:last-child { grid-column: auto; }
   .story-card-large { display: block; }.story-card-large .story-art { height: 220px; margin-bottom: 22px; }.story-card-large .story-copy h2 { font-size: 33px; }
