@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -27,11 +28,15 @@ export default function Header() {
       </div>
       <div className="shell masthead">
         <Link href="/" className="brand" onClick={() => setOpen(false)} aria-label="The Ocmulgee Free Press home">
-          <span className="brand-mark" aria-hidden="true"><i>O</i>FP</span>
-          <span className="brand-copy">
-            <strong>The Ocmulgee</strong>
-            <b>Free Press</b>
-          </span>
+          <Image
+            src="/images/ocmulgee-free-press-logo.png"
+            alt="The Ocmulgee Free Press"
+            className="brand-logo"
+            width={1200}
+            height={400}
+            priority
+            unoptimized
+          />
         </Link>
         <p className="masthead-mission">Independent reporting for an informed and empowered public.</p>
         <button className="menu-button" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="site-nav">
