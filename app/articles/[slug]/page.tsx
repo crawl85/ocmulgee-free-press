@@ -38,7 +38,10 @@ function renderArticleImage(image: ArticleImage, key: string) {
         sizes="(max-width: 900px) 100vw, 755px"
         unoptimized
       />
-      {image.caption ? <figcaption>{image.caption}</figcaption> : null}
+
+      {image.caption ? (
+        <figcaption>{image.caption}</figcaption>
+      ) : null}
     </figure>
   );
 }
@@ -98,6 +101,7 @@ export default async function ArticlePage({
               priority
               unoptimized
             />
+
             {article.featuredImageCaption ? (
               <figcaption className="shell">
                 {article.featuredImageCaption}
@@ -108,6 +112,7 @@ export default async function ArticlePage({
           <div className={`article-hero accent-${article.accent}`}>
             <div className="shell">
               <span>{article.section}</span>
+
               <strong>
                 {article.title.split(" ").slice(0, 3).join(" ")}
               </strong>
@@ -124,65 +129,71 @@ export default async function ArticlePage({
             >
               Email
             </a>
-
-            <a href="#records">Sources</a>
           </aside>
 
           <div>
             {(article.images || [])
-              .filter((image) => Number(image.afterParagraph ?? 1) <= 0)
+              .filter(
+                (image) =>
+                  Number(image.afterParagraph ?? 1) <= 0
+              )
               .map((image, index) =>
-                renderArticleImage(image, `${article.slug}-image-before-${index}`)
+                renderArticleImage(
+                  image,
+                  `${article.slug}-image-before-${index}`
+                )
               )}
 
             {article.body.map((block, index) => {
               const blockNumber = index + 1;
               const blockKey = `${article.slug}-body-${index}`;
+
               const bodyElement = block.startsWith("## ") ? (
-                <h2 key={blockKey}>{renderInlineLinks(block.slice(3))}</h2>
+                <h2 key={blockKey}>
+                  {renderInlineLinks(block.slice(3))}
+                </h2>
               ) : block.startsWith("- ") ? (
                 <p key={blockKey} className="article-list-item">
                   <span aria-hidden="true">• </span>
                   {renderInlineLinks(block.slice(2))}
                 </p>
               ) : (
-                <p key={blockKey}>{renderInlineLinks(block)}</p>
+                <p key={blockKey}>
+                  {renderInlineLinks(block)}
+                </p>
               );
 
-              const imagesAfterBlock = (article.images || []).filter((image) => {
-                const requestedPosition = Number(image.afterParagraph ?? 1);
+              const imagesAfterBlock = (
+                article.images || []
+              ).filter((image) => {
+                const requestedPosition = Number(
+                  image.afterParagraph ?? 1
+                );
+
                 const position = Math.min(
                   Math.max(requestedPosition, 1),
                   article.body.length
                 );
+
                 return position === blockNumber;
               });
 
               return (
-                <Fragment key={`${article.slug}-group-${index}`}>
+                <Fragment
+                  key={`${article.slug}-group-${index}`}
+                >
                   {bodyElement}
-                  {imagesAfterBlock.map((image, imageIndex) =>
-                    renderArticleImage(
-                      image,
-                      `${article.slug}-image-${index}-${imageIndex}`
-                    )
+
+                  {imagesAfterBlock.map(
+                    (image, imageIndex) =>
+                      renderArticleImage(
+                        image,
+                        `${article.slug}-image-${index}-${imageIndex}`
+                      )
                   )}
                 </Fragment>
               );
             })}
-
-            <div id="records" className="article-sources">
-              <strong>Source transparency</strong>
-
-              <p>
-                Relevant primary-source documents are published in our Open
-                Records Library as they become available.
-              </p>
-
-              <Link href="/records">
-                Browse source documents →
-              </Link>
-            </div>
           </div>
         </div>
       </article>
