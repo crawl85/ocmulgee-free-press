@@ -21,26 +21,6 @@ export default function FlockWatchPage() {
         description="Tracking automated license-plate readers, data sharing, camera networks, and the misuse of mass-surveillance technology."
       />
 
-      <section className="shell flock-dashboard">
-        <div>
-          <span>REPORTING FOCUS</span>
-          <strong>Search logs</strong>
-          <p>Who ran the search, why, and under which case?</p>
-        </div>
-
-        <div>
-          <span>REPORTING FOCUS</span>
-          <strong>Data sharing</strong>
-          <p>Which agencies can reach local vehicle-location data?</p>
-        </div>
-
-        <div>
-          <span>REPORTING FOCUS</span>
-          <strong>Public cost</strong>
-          <p>Contracts, renewals, hardware, and hidden add-ons.</p>
-        </div>
-      </section>
-
       <PetitionCallout />
 
       <section className="shell flock-stories">

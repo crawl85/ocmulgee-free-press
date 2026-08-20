@@ -131,8 +131,6 @@ button, input, select, textarea { font: inherit; }
 .page-intro-dark { background: #20231f; color: white; }.page-intro-dark .shell > p:last-child { color: #cac4b9; }.page-intro-dark:after { border-color: rgba(214,69,47,.55); }
 .listing-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px 30px; }.listing-grid .story-card-large { grid-column: 1 / -1; }
 
-.flock-dashboard { margin-top: -1px; display: grid; grid-template-columns: repeat(3, 1fr); background: var(--red); color: white; }
-.flock-dashboard > div { padding: 28px 32px; border-right: 1px solid rgba(255,255,255,.28); }.flock-dashboard span { display: block; font-size: 9px; font-weight: 900; letter-spacing: .14em; margin-bottom: 9px; }.flock-dashboard strong { font: 700 25px/1 var(--serif); }.flock-dashboard p { margin: 9px 0 0; font: 14px/1.4 var(--serif); opacity: .82; }
 .flock-stories { padding-block: 75px; }.tip-banner { background: var(--red); color: white; }.tip-banner .shell { min-height: 220px; display: grid; grid-template-columns: 1fr 1fr auto; gap: 45px; align-items: center; }.tip-banner p { margin: 0; font: 16px/1.5 var(--serif); }.tip-banner div > p:first-child { font: 900 10px/1 var(--sans); letter-spacing: .14em; margin-bottom: 10px; }.tip-banner h2 { margin: 0; font: 800 33px/1 var(--serif); }
 
 .records-note { display: grid; grid-template-columns: .4fr 1.6fr; gap: 30px; padding: 22px 25px; border-left: 5px solid var(--gold); background: #ece6da; margin-bottom: 35px; }.records-note strong { font: 800 20px/1 var(--serif); }.records-note p { margin: 0; color: var(--muted); font: 14px/1.5 var(--serif); }
@@ -172,7 +170,6 @@ button, input, select, textarea { font: inherit; }
   .latest-grid { grid-template-columns: 1fr 1fr; }.latest-grid .story-card:last-child { grid-column: 1 / -1; }
   .records-promo-grid { padding-block: 60px; }.records-stack { max-width: 520px; width: 100%; margin-inline: auto; }
   .empowerment-section { grid-template-columns: .25fr 1fr; padding-block: 55px; }.empowerment-section > div:last-child { grid-column: 2; }
-  .flock-dashboard { grid-template-columns: 1fr; }.flock-dashboard > div { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.25); }
   .tip-banner .shell { grid-template-columns: 1fr; padding-block: 45px; gap: 24px; }
   .contact-grid { gap: 50px; }.footer-grid { grid-template-columns: 1fr 1fr; }.footer-grid > div:first-child { grid-column: 1 / -1; }
 }
