@@ -13,6 +13,7 @@ export default function Footer() {
           <h2>Sections</h2>
           <Link href="/local">Local</Link>
           <Link href="/records">Open Records</Link>
+          <Link href="/civic-calendar">Civic Calendar</Link>
           <Link href="/flock-watch">FLOCK Watch</Link>
           <Link href="/citizen-resources">Citizen Resources</Link>
         </div>

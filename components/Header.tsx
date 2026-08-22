@@ -9,6 +9,7 @@ const nav = [
   ["Local", "/local"],
   ["Accountability", "/accountability"],
   ["Open Records", "/records"],
+  ["Civic Calendar", "/civic-calendar"],
   ["FLOCK Watch", "/flock-watch"],
   ["Citizen Resources", "/citizen-resources"],
   ["Contact", "/contact"],
