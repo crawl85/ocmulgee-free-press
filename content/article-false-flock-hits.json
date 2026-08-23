@@ -1,7 +1,7 @@
 {
   "slug": "false-flock-camera-hits",
   "section": "FLOCK Watch",
-  "eyebrow": "FLOCK WATCH | TECHNOLOGY & ACCOUNTABILITY",
+  "eyebrow": "FLOCK WATCH | WATCHING THE WATCHERS",
   "title": "One Wrong Character, One Armed Stop: The Danger of False Flock Camera Hits",
   "dek": "Flock Safety markets its automated license plate readers as tools for finding vehicles connected to crimes. Documented cases show what can happen when an alert is mistaken for proof.",
   "date": "August 23, 2026",
@@ -9,6 +9,9 @@
   "readTime": "10 min read",
   "featured": true,
   "accent": "red",
+  "featuredImage": "/uploads/pexels-will-freeman-31970050.jpg",
+  "featuredImageAlt": "Solar-powered Flock Safety license plate reader camera mounted on a roadside pole against a blue sky.",
+  "featuredImageCaption": "Photo by Will Freeman on Pexels",
   "body": [
     "A Flock Safety camera photographs a passing vehicle, uses software to interpret its license plate and compares the result with databases containing stolen vehicles, wanted persons and police-created hot lists.",
     "If the system identifies a possible match, an officer may receive an alert within seconds.",
