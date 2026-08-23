@@ -1,4 +1,5 @@
 import articlesData from "@/content/articles.json";
+import falseFlockHitsArticle from "@/content/article-false-flock-hits.json";
 import houstonFlockMisuseArticle from "@/content/article-houston-flock-misuse.json";
 import recordsData from "@/content/records.json";
 import resourcesData from "@/content/resources.json";
@@ -32,7 +33,7 @@ export interface Article {
 export type RecordItem = (typeof recordsData.records)[number];
 
 export const site = siteData;
-export const articles = [houstonFlockMisuseArticle, ...articlesData.articles] as Article[];
+export const articles = [falseFlockHitsArticle, houstonFlockMisuseArticle, ...articlesData.articles] as Article[];
 export const records = recordsData.records;
 export const resources = resourcesData.resources;
 
