@@ -1,0 +1,15 @@
+{
+  "authors": [
+    {
+      "slug": "ocmulgee-free-press",
+      "name": "The Ocmulgee Free Press",
+      "aliases": ["Ocmulgee Free Press Staff"],
+      "role": "Independent public-interest newsroom",
+      "bio": "The Ocmulgee Free Press reports on government accountability, civil rights, public records, surveillance, and civic life in Macon-Bibb, Middle Georgia, and communities where the issues carry broader public importance.",
+      "email": "admin@ocmulgeefreepress.com",
+      "location": "Macon-Bibb County, Georgia",
+      "image": "/images/ocmulgee-free-press-logo.png",
+      "schemaType": "Organization"
+    }
+  ]
+}

@@ -222,6 +222,28 @@ collections:
               - { label: Type, name: type, widget: string }
               - { label: Description, name: description, widget: text }
               - { label: Button text, name: action, widget: string }
+      - name: authors
+        label: Author Profiles
+        file: content/authors.json
+        fields:
+          - label: Authors
+            name: authors
+            widget: list
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { label: Profile slug, name: slug, widget: string, hint: "Lowercase words separated by hyphens" }
+              - { label: Display name, name: name, widget: string }
+              - label: Alternate bylines
+                name: aliases
+                widget: list
+                required: false
+                field: { label: Byline, name: byline, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Biography, name: bio, widget: text }
+              - { label: Email, name: email, widget: string }
+              - { label: Location, name: location, widget: string }
+              - { label: Profile image, name: image, widget: image, required: false }
+              - { label: Profile type, name: schemaType, widget: select, options: [Organization, Person], default: Organization }
       - name: settings
         label: Site Settings
         file: content/site.json

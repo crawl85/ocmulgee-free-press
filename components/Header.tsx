@@ -24,7 +24,6 @@ export default function Header() {
       <div className="utility-bar">
         <div className="shell utility-inner">
           <span>Macon-Bibb &amp; Middle Georgia</span>
-          <span>Saturday, August 15, 2026</span>
           <Link href="/contact">Send a confidential tip <span aria-hidden="true">→</span></Link>
         </div>
       </div>

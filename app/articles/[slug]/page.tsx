@@ -3,7 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { Fragment } from "react";
 import { notFound } from "next/navigation";
-import { articles, getArticle, site, type ArticleImage } from "@/lib/content";
+import { articles, getArticle, getAuthorProfile, site, type ArticleImage } from "@/lib/content";
 import { absoluteUrl, articleDateIso } from "@/lib/seo";
 
 type ArticlePageProps = {
@@ -73,11 +73,16 @@ export async function generateMetadata({
     ? absoluteUrl(article.featuredImage)
     : undefined;
   const publishedTime = articleDateIso(article.date);
+  const modifiedTime = articleDateIso(article.dateModified || article.date);
+  const authorProfile = getAuthorProfile(article.author);
+  const authorUrl = authorProfile
+    ? absoluteUrl(`/authors/${authorProfile.slug}/`)
+    : undefined;
 
   return {
     title: article.title,
     description: article.dek,
-    authors: [{ name: article.author }],
+    authors: [{ name: article.author, url: authorUrl }],
     alternates: {
       canonical: articleUrl,
     },
@@ -88,7 +93,7 @@ export async function generateMetadata({
       description: article.dek,
       siteName: site.name,
       publishedTime,
-      modifiedTime: publishedTime,
+      modifiedTime,
       authors: [article.author],
       section: article.section,
       images: featuredImage
@@ -128,6 +133,11 @@ export default async function ArticlePage({
 
   const articleUrl = absoluteUrl(`/articles/${article.slug}/`);
   const publishedTime = articleDateIso(article.date);
+  const modifiedTime = articleDateIso(article.dateModified || article.date);
+  const authorProfile = getAuthorProfile(article.author);
+  const authorUrl = authorProfile
+    ? absoluteUrl(`/authors/${authorProfile.slug}/`)
+    : undefined;
   const featuredImage = article.featuredImage
     ? absoluteUrl(article.featuredImage)
     : undefined;
@@ -142,14 +152,13 @@ export default async function ArticlePage({
     description: article.dek,
     image: featuredImage ? [featuredImage] : undefined,
     datePublished: publishedTime,
-    dateModified: publishedTime,
+    dateModified: modifiedTime,
     articleSection: article.section,
     isAccessibleForFree: true,
     author: {
-      "@type": article.author.includes("Free Press")
-        ? "Organization"
-        : "Person",
+      "@type": authorProfile?.schemaType || "Person",
       name: article.author,
+      url: authorUrl,
     },
     publisher: {
       "@type": "Organization",
@@ -183,7 +192,11 @@ export default async function ArticlePage({
           <p className="article-dek">{article.dek}</p>
 
           <div className="byline">
-            <span>By {article.author}</span>
+            <span>
+              By {authorProfile ? (
+                <Link href={`/authors/${authorProfile.slug}`}>{article.author}</Link>
+              ) : article.author}
+            </span>
             <span>{article.date}</span>
             <span>{article.readTime}</span>
           </div>

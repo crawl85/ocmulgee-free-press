@@ -33,9 +33,6 @@ export const metadata: Metadata = {
     description: "Independent public-interest journalism serving Macon-Bibb and Middle Georgia.",
     images: ["/images/ocmulgee-free-press-logo.png"],
   },
-  other: {
-    "codex-preview": "development",
-  },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
@@ -49,6 +46,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script async src="https://news.google.com/swg/js/v1/publisher.js" />
+      </head>
       <body>
         <a className="skip-link" href="#content">Skip to content</a>
         <Header />

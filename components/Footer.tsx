@@ -1,9 +1,11 @@
 import Link from "next/link";
+import PreferredSourceButton from "@/components/PreferredSourceButton";
 import { site } from "@/lib/content";
 
 export default function Footer() {
   return (
     <footer className="site-footer">
+      <PreferredSourceButton />
       <div className="shell footer-grid">
         <div>
           <div className="footer-brand">The Ocmulgee <span>Free Press</span></div>
@@ -19,6 +21,10 @@ export default function Footer() {
         </div>
         <div>
           <h2>Newsroom</h2>
+          <Link href="/about">About</Link>
+          <Link href="/editorial-standards">Editorial Standards</Link>
+          <Link href="/corrections">Corrections</Link>
+          <Link href="/authors/ocmulgee-free-press">Authors</Link>
           <Link href="/contact">Contact &amp; tips</Link>
           <a href={`mailto:${site.email}`}>{site.email}</a>
           <Link href="/admin">Content Studio</Link>

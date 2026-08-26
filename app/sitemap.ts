@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { articles } from "@/lib/content";
+import { articles, authors } from "@/lib/content";
 import { SITE_URL, articleDateIso } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -46,6 +46,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.5,
     },
+    {
+      url: `${SITE_URL}/about/`,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/editorial-standards/`,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/corrections/`,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
   ];
 
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
@@ -55,5 +70,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: article.featured ? 0.9 : 0.7,
   }));
 
-  return [...staticPages, ...articlePages];
+  const authorPages: MetadataRoute.Sitemap = authors.map((author) => ({
+    url: `${SITE_URL}/authors/${author.slug}/`,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...authorPages, ...articlePages];
 }
