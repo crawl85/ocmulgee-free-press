@@ -60,6 +60,50 @@ collections:
                   - { label: Alt text, name: alt, widget: string, required: false, hint: "Describe the important visual content." }
                   - { label: Caption, name: caption, widget: text, required: false }
                   - { label: Place after body item, name: afterParagraph, widget: number, value_type: int, min: 0, default: 1, hint: "Use 0 to place it before the article body, 1 after the first paragraph, and so on." }
+      - name: fort_wayne_flock_rejection
+        label: Fort Wayne Flock Contract Article
+        file: content/article-fort-wayne-flock-rejection.json
+        fields:
+          - { label: Slug, name: slug, widget: string, hint: "Lowercase words separated by hyphens" }
+          - { label: Section, name: section, widget: select, options: [Local, Accountability, FLOCK Watch, Citizen Resources] }
+          - { label: Eyebrow, name: eyebrow, widget: string }
+          - { label: Headline, name: title, widget: string }
+          - { label: Summary, name: dek, widget: text }
+          - { label: Date, name: date, widget: string }
+          - { label: Author, name: author, widget: string }
+          - { label: Read time, name: readTime, widget: string, default: "5 min read" }
+          - { label: Homepage feature, name: featured, widget: boolean, default: false }
+          - { label: Accent, name: accent, widget: select, options: [red, gold, blue, green, ink], default: red }
+          - label: Featured image
+            name: featuredImage
+            widget: image
+            required: false
+            hint: "Upload, select, replace, or clear the main image shown on the story card and article page."
+          - label: Featured image alt text
+            name: featuredImageAlt
+            widget: string
+            required: false
+            hint: "Briefly describe the image for readers using screen readers. Leave blank only when the image is purely decorative."
+          - label: Featured image caption
+            name: featuredImageCaption
+            widget: text
+            required: false
+          - label: Story body
+            name: body
+            widget: list
+            field: { label: Paragraph, name: paragraph, widget: text }
+          - label: Additional article images
+            name: images
+            widget: list
+            required: false
+            minimize_collapsed: true
+            summary: "{{fields.caption}}"
+            hint: "Add, remove, replace, and reorder images that appear within the article."
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Alt text, name: alt, widget: string, required: false, hint: "Describe the important visual content." }
+              - { label: Caption, name: caption, widget: text, required: false }
+              - { label: Place after body item, name: afterParagraph, widget: number, value_type: int, min: 0, default: 1, hint: "Use 0 to place it before the article body, 1 after the first paragraph, and so on." }
       - name: false_flock_hits
         label: False Flock Camera Hits Article
         file: content/article-false-flock-hits.json
