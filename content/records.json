@@ -1,6 +1,36 @@
 {
   "records": [
     {
+      "title": "Warner Robins Police Flock Audit Log — July 2026",
+      "agency": "Warner Robins Police Department",
+      "category": "ALPR / Surveillance",
+      "date": "July 1–31, 2026",
+      "format": "XLSX",
+      "size": "133 KB",
+      "description": "Flock Safety search audit log covering July 1–31, 2026, produced by the Warner Robins Police Department in spreadsheet form. Fields include users, search time frames, stated reasons, case numbers, vehicle filters, query types, text prompts and moderation data.",
+      "file": "/uploads/warner-robins-pd-flock-audit-july-2026.xlsx"
+    },
+    {
+      "title": "Warner Robins Police Flock Audit Log — June 2026",
+      "agency": "Warner Robins Police Department",
+      "category": "ALPR / Surveillance",
+      "date": "June 1–30, 2026",
+      "format": "XLSX",
+      "size": "201 KB",
+      "description": "Flock Safety search audit log covering June 1–30, 2026, produced by the Warner Robins Police Department in spreadsheet form. Fields include users, search time frames, stated reasons, case numbers, vehicle filters, query types, text prompts and moderation data.",
+      "file": "/uploads/warner-robins-pd-flock-audit-june-2026.xlsx"
+    },
+    {
+      "title": "Warner Robins Police Flock Audit Log — May 2026",
+      "agency": "Warner Robins Police Department",
+      "category": "ALPR / Surveillance",
+      "date": "May 1–31, 2026",
+      "format": "XLSX",
+      "size": "180 KB",
+      "description": "Flock Safety search audit log covering May 1–31, 2026, produced by the Warner Robins Police Department in spreadsheet form. Fields include users, search time frames, stated reasons, case numbers, vehicle filters, query types, text prompts and moderation data.",
+      "file": "/uploads/warner-robins-pd-flock-audit-may-2026.xlsx"
+    },
+    {
       "title": "BCSO Flock Audit Log — May 2026",
       "agency": "Bibb County Sheriff's Office",
       "category": "ALPR / Surveillance",
