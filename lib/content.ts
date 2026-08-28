@@ -48,7 +48,23 @@ export interface AuthorProfile {
 export type RecordItem = (typeof recordsData.records)[number];
 
 export const site = siteData;
-export const articles = [fortWayneFlockRejectionArticle, falseFlockHitsArticle, houstonFlockMisuseArticle, ...articlesData.articles] as Article[];
+const combinedArticles = [
+  fortWayneFlockRejectionArticle,
+  falseFlockHitsArticle,
+  houstonFlockMisuseArticle,
+  ...articlesData.articles,
+] as Article[];
+
+function articleTimestamp(date: string) {
+  const normalizedDate = date.replace(/(\d+)(st|nd|rd|th)/i, "$1");
+  const timestamp = Date.parse(normalizedDate);
+
+  return Number.isNaN(timestamp) ? 0 : timestamp;
+}
+
+export const articles = combinedArticles.sort(
+  (left, right) => articleTimestamp(right.date) - articleTimestamp(left.date)
+);
 export const authors = authorsData.authors as AuthorProfile[];
 export const records = recordsData.records;
 export const resources = resourcesData.resources;

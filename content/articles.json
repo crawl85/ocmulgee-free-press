@@ -1,6 +1,38 @@
 {
   "articles": [
     {
+      "slug": "bcso-automatic-60-day-open-records-extension",
+      "section": "Local",
+      "eyebrow": "OPEN RECORDS | GOVERNMENT TRANSPARENCY",
+      "title": "Sixty Days by Default: BCSO’s Open Records Policy Raises Legal Questions",
+      "dek": "The Bibb County Sheriff’s Office says open-records requests are automatically extended 60 days, a blanket timeline that raises questions under Georgia’s requirement that records be produced as soon as practicable.",
+      "date": "August 28, 2026",
+      "author": "The Ocmulgee Free Press",
+      "readTime": "3 min read",
+      "featured": false,
+      "accent": "red",
+      "featuredImage": "/uploads/bcso-open-records-automatic-60-day-extension.jpg",
+      "featuredImageAlt": "Screenshot of a Bibb County Sheriff’s Office notice stating that open-records requests will automatically be extended 60 days because of high request volume.",
+      "featuredImageCaption": "A notice provided by the Bibb County Sheriff’s Office states that open-records requests will automatically be extended 60 days because of high request volume.",
+      "body": [
+        "The Bibb County Sheriff’s Office appears to have adopted a policy of automatically extending Georgia Open Records Act requests to 60 days, regardless of the scope or complexity of the records being requested.",
+        "That practice raises serious transparency concerns.",
+        "Georgia law generally requires public records to be produced within three business days. When records cannot be produced within that period, the agency must provide a description of the responsive records and a timeline for production, then provide access as soon as practicable. The law does not grant local law enforcement agencies an automatic 60-day extension.",
+        "Some requests are complex and may legitimately require additional time. But automatically assigning the same 60-day timeline to every request is difficult to reconcile with a law requiring records to be produced as soon as practicable. A simple request for a readily available electronic record should not receive the same response as a request involving thousands of pages requiring extensive review and redaction.",
+        "The concern is not merely that 60 days feels excessive. It is that a blanket extension appears to replace the individualized assessment required by the law with an arbitrary administrative deadline.",
+        "I contacted both the Bibb County Sheriff’s Office and the Georgia Attorney General’s Office seeking clarification and comment on whether this practice complies with the Georgia Open Records Act. Neither office had responded as of the date of publication.",
+        "Public access should not depend on an agency’s self-imposed timetable. If BCSO believes every request requires up to 60 days, the public deserves an explanation of the legal and factual basis for that policy."
+      ],
+      "images": [
+        {
+          "image": "/uploads/bcso-open-records-60-and-90-day-notice.jpg",
+          "alt": "Screenshot of a longer Bibb County Sheriff’s Office notice saying open-records requests are automatically extended 60 days and homicide or death-investigation requests are extended 90 days.",
+          "caption": "A second BCSO notice says requests are handled in the order received, assigns a 60-day extension to open-records requests generally, and assigns 90 days to homicide or death-investigation files.",
+          "afterParagraph": 4
+        }
+      ]
+    },
+    {
       "slug": "end-qualified-immunity",
       "section": "Accountability",
       "eyebrow": "Civil rights & accountability",
