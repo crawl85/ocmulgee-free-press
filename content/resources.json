@@ -1,6 +1,15 @@
 {
   "resources": [
     {
+      "title": "Know Your Rights During Police Encounters",
+      "type": "Georgia field guide",
+      "description": "Practical guidance for traffic stops, DUI checkpoints, police at your home, questioning, recording, and phone searches.",
+      "action": "Read the guide",
+      "href": "/know-your-rights",
+      "download": false,
+      "external": false
+    },
+    {
       "title": "Georgia Open Records Request Template",
       "type": "Template",
       "description": "Fill out, save, print, or email a Georgia Open Records Act request using an interactive PDF.",

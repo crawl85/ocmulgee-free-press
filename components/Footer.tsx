@@ -18,6 +18,7 @@ export default function Footer() {
           <Link href="/civic-calendar">Civic Calendar</Link>
           <Link href="/flock-watch">FLOCK Watch</Link>
           <Link href="/citizen-resources">Citizen Resources</Link>
+          <Link href="/know-your-rights">Know Your Rights</Link>
         </div>
         <div>
           <h2>Newsroom</h2>
