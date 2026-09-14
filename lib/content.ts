@@ -2,6 +2,7 @@ import articlesData from "@/content/articles.json";
 import fortWayneFlockRejectionArticle from "@/content/article-fort-wayne-flock-rejection.json";
 import falseFlockHitsArticle from "@/content/article-false-flock-hits.json";
 import houstonFlockMisuseArticle from "@/content/article-houston-flock-misuse.json";
+import houstonFlockRetentionArticle from "@/content/article-houston-flock-retention.json";
 import authorsData from "@/content/authors.json";
 import recordsData from "@/content/records.json";
 import resourcesData from "@/content/resources.json";
@@ -49,6 +50,7 @@ export type RecordItem = (typeof recordsData.records)[number];
 
 export const site = siteData;
 const combinedArticles = [
+  houstonFlockRetentionArticle,
   fortWayneFlockRejectionArticle,
   falseFlockHitsArticle,
   houstonFlockMisuseArticle,
