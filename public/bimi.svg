@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 64 64">
+  <title>The Ocmulgee Free Press</title>
+  <rect width="64" height="64" fill="#11110f"/>
+  <rect x="6" y="6" width="52" height="52" fill="none" stroke="#f4f0e7" stroke-width="2"/>
+  <circle cx="24" cy="31" r="13" fill="none" stroke="#d6452f" stroke-width="5"/>
+  <path fill="#f4f0e7" d="M37 18h15v6h-9v7h8v6h-8v13h-6z"/>
+</svg>
