@@ -1,6 +1,38 @@
 {
   "articles": [
     {
+      "slug": "gbi-investigating-wrpd-flock-misuse",
+      "section": "FLOCK Watch",
+      "eyebrow": "FLOCK WATCH | WARNER ROBINS",
+      "title": "GBI Investigating Alleged Flock Misuse at Warner Robins Police Department",
+      "dek": "State agency is examining allegations of employee misuse following an internal investigation involving the department’s automated license-plate-reader system.",
+      "date": "October 23, 2026",
+      "author": "Casey Fairview",
+      "readTime": "4 min read",
+      "featured": true,
+      "accent": "red",
+      "body": [
+        "The GBI confirmed Thursday that WRPD requested the outside investigation, according to [WGXA](https://wgxa.tv/news/local/gbi-leads-investigation-into-flock-camera-misuse-at-warner-robins-police-department-local-news-georgia-bureau-of-investigation-middle-georgia-wayne-fisher). Warner Robins City Clerk Mandy Stella also confirmed that Police Chief Wayne Fisher asked the state agency to investigate following an internal-affairs inquiry involving the department’s Flock system.",
+        "Neither WRPD nor the GBI has identified the employee under investigation, described the specific conduct being examined, or disclosed when Fisher requested the GBI’s assistance. The investigation remains ongoing, and an investigation is not a finding of criminal wrongdoing.",
+        "## Records Raised Questions About Off-Duty Searches",
+        "Records obtained and reviewed by the Ocmulgee Free Press show that WRPD previously conducted Internal Affairs investigation 2026-04 involving Officer Max Hess and searches for a vanity plate reading “SLUTTY.” The department’s internal investigation ultimately exonerated Hess.",
+        "According to the internal-affairs materials, Hess searched the plate through Flock three times within 28 seconds on February 21 while off duty. Investigators found that no officer had requested those searches and located no corresponding investigation or report.",
+        "The records also document a February 23 GCIC query for the same plate. The internal-affairs file states that Hess initially denied making that query but acknowledged it after being told an access record existed.",
+        "A separate Flock audit entry shows another search for the plate on May 5. That entry contained no case number, and internal affairs reported finding no corresponding report or other documentation.",
+        "During interviews on May 21 and May 26, Hess said he believed the plate was fictitious and described the searches as proactive police work. He acknowledged that he was off duty and that no officer had asked him to search that vehicle. At one point, Hess said he had been “creating surveillance” to determine where the vehicle might be found, then immediately rephrased his explanation.",
+        "Hess also described conducting other off-duty Flock searches to assist WRPD officers or personnel from other agencies after receiving requests through GroupMe. That testimony raised additional questions about how those requests were authorized, documented, supervised and retained.",
+        "WRPD General Order 2023-04 states that use of license-plate-reader data is limited to open criminal investigations or intelligence gathering involving illegal activity and is to be documented with a case number. A later special order, dated May 28, expressly required written documentation and an assigned case number for every Flock query.",
+        "The Ocmulgee Free Press is not reporting that Hess is the subject of the GBI investigation. State and city officials have not publicly identified any subject, and the scope of the outside inquiry remains unknown.",
+        "## Questions Now Before the GBI",
+        "The outside investigation could address questions left unresolved by the information currently available to the public, including what conduct prompted the referral, whether more than one employee is involved, whether any searches violated department policy or state law, and whether WRPD’s controls were adequate to detect and prevent unauthorized access.",
+        "The Ocmulgee Free Press had previously requested and reviewed WRPD’s Flock records and raised questions about the department’s internal investigation. The available information does not establish whether that scrutiny played any role in Chief Fisher’s decision to request the GBI investigation.",
+        "The GBI investigation may ultimately substantiate the allegations, reject them or uncover facts not yet public. Until the agency completes its work, conclusions about criminal or administrative responsibility would be premature.",
+        "What is no longer in dispute is that alleged misuse of Warner Robins’ Flock system is now receiving outside scrutiny.",
+        "The Ocmulgee Free Press will continue seeking records concerning the referral, the scope and timing of the GBI investigation, and any disciplinary or policy actions taken by the city."
+      ],
+      "images": []
+    },
+    {
       "slug": "macon-bibb-education-blight-tax-constitutional-questions",
       "section": "Local",
       "eyebrow": "LOCAL GOVERNMENT | PROPERTY TAXES",
