@@ -485,3 +485,79 @@ button, input, select, textarea { font: inherit; }
 @media (prefers-reduced-motion: reduce) {
   .mag-lead-media img, .mag-secondary-media img, .mag-story-media img { transition: none; }
 }
+
+/* Option C mobile pass: deliberate single-column reading, compact story rails, larger tap targets */
+@media (max-width: 760px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  .shell { width: calc(100% - 32px); }
+
+  .masthead { min-height: 88px; grid-template-columns: minmax(0, 1fr) 48px; gap: 10px; }
+  .brand { width: min(260px, 100%); }
+  .menu-button { width: 48px; min-height: 48px; justify-content: center; padding: 6px 0; cursor: pointer; }
+  .nav-inner a, .nav-inner a:last-child { min-height: 52px; padding-inline: 16px; }
+
+  .mag-hero { width: 100%; grid-template-columns: minmax(0, 1fr); gap: 34px; padding: 0 0 40px; }
+  .mag-lead-media { min-height: 0; aspect-ratio: 4 / 3; }
+  .mag-lead-copy { max-width: none; margin: 0; padding: 23px 16px 0; }
+  .mag-lead h1 { max-width: none; font-size: clamp(35px, 10.5vw, 49px); line-height: .98; letter-spacing: -.045em; overflow-wrap: break-word; }
+  .mag-dek { margin-block: 17px 20px; font-size: 17px; line-height: 1.46; }
+  .mag-kicker, .mag-band-label { font-size: 9px; line-height: 1.4; }
+  .mag-meta { gap: 6px 11px; font-size: 8px; line-height: 1.5; }
+  .mag-meta span + span:before { margin-right: 11px; }
+
+  .mag-secondary-rail { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; gap: 20px; padding-inline: 16px; }
+  .mag-secondary-card { display: grid; grid-template-columns: 116px minmax(0, 1fr); gap: 16px; align-items: start; padding-bottom: 20px; }
+  .mag-secondary-media { width: 116px; min-height: 0; aspect-ratio: 1; margin: 0; }
+  .mag-secondary-card h2 { margin-bottom: 11px; font-size: clamp(21px, 6.2vw, 27px); line-height: 1.02; }
+  .mag-secondary-card .mag-editorial-art > span,
+  .mag-secondary-card .mag-editorial-art > b { display: none; }
+  .mag-secondary-card .mag-editorial-art > i { width: 44px; height: 44px; right: 19%; top: 28%; border-width: 6px; }
+
+  .mag-watchline-inner { min-height: 0; grid-template-columns: 1fr; gap: 12px; padding-block: 19px; }
+  .mag-watchline strong { display: none; }
+  .mag-watchline a { width: fit-content; min-height: 32px; display: flex; align-items: center; }
+
+  .mag-latest { padding-block: 52px 62px; }
+  .mag-section-heading { align-items: flex-start; flex-direction: column; gap: 15px; margin-bottom: 25px; }
+  .mag-section-heading h2 { font-size: 34px; }
+  .mag-section-heading > a { min-height: 36px; display: flex; align-items: center; }
+  .mag-story-grid { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .mag-story-media { height: auto; aspect-ratio: 16 / 10; }
+  .mag-story-card h3 { font-size: clamp(25px, 7.2vw, 31px); }
+  .mag-card-dek { -webkit-line-clamp: 4; font-size: 16px; }
+
+  .mag-flock-grid { width: 100%; grid-template-columns: minmax(0, 1fr); }
+  .mag-flock-copy { padding: 56px 16px; }
+  .mag-flock-copy h2 { font-size: clamp(62px, 21vw, 88px); line-height: .75; }
+  .mag-flock-copy > p:not(.mag-band-label) { margin-block: 29px 27px; padding-right: 4px; font-size: 17px; }
+  .mag-flock-actions { align-items: stretch; flex-direction: column; gap: 15px; }
+  .mag-button { width: 100%; min-height: 48px; }
+  .mag-flock-actions > a:not(.mag-button) { width: fit-content; min-height: 34px; display: flex; align-items: center; }
+  .mag-flock-visual { min-height: 0; aspect-ratio: 4 / 3; }
+
+  .mag-public-tools { width: 100%; grid-template-columns: minmax(0, 1fr); padding-block: 0; }
+  .mag-tool-card { min-height: 360px; padding: 42px 24px 150px; border-inline: 0; }
+  .mag-tool-card + .mag-tool-card { border-left: 0; border-right: 0; border-top: 0; }
+  .mag-tool-card h2 { font-size: clamp(37px, 10.5vw, 48px); }
+  .mag-tool-card > p:not(.mag-kicker) { font-size: 16px; }
+  .mag-tool-card > a { min-height: 36px; display: inline-flex; align-items: center; }
+  .mag-file-mark { right: -30px; bottom: -82px; opacity: .42; }
+  .mag-rights-mark { right: -48px; bottom: -62px; opacity: .55; }
+}
+
+@media (max-width: 420px) {
+  .shell { width: calc(100% - 24px); }
+  .utility-inner > span { display: none; }
+  .utility-inner { justify-content: flex-end; }
+  .brand { width: min(225px, 100%); }
+  .mag-lead-copy { padding-inline: 12px; }
+  .mag-lead h1 { font-size: clamp(33px, 10.4vw, 42px); }
+  .mag-secondary-rail { padding-inline: 12px; }
+  .mag-secondary-card { grid-template-columns: 104px minmax(0, 1fr); gap: 13px; }
+  .mag-secondary-media { width: 104px; }
+  .mag-secondary-card h2 { font-size: 21px; }
+  .mag-secondary-card .mag-meta span:last-child { display: none; }
+  .mag-story-media { aspect-ratio: 4 / 3; }
+  .mag-flock-copy { padding-inline: 12px; }
+  .mag-tool-card { padding-inline: 20px; }
+}
